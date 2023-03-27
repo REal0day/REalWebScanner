@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 import requests
 from bs4 import BeautifulSoup
+'''
+    DOM XSS in jQuery anchor href attribute sink using location.search source
+'''
 
 def find_vulnerable_link():
     '''
